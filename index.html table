@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <style>
+      table,
+      th,
+      td{
+        border 1px solid black;
+      }
+    </style>
+    <body>
+      <h1>
+        Welcome to My Profile
+      </h1>
+      <div>
+        Hello, my name is <span color teal>Rameez</span>
+      </div>
+      <div>
+        visit my favorite site: <a> herf="https://www.youtube.com/" target="_blank">visit youtube</a>
+      </div>
+      <h2>
+        My Skills
+      </h2>
+      <table style=width:"100%;">
+        <tr>
+          <th>SKILLS</th>
+          <th>description</th>
+          <th>proficiency</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Creating webpage structures</td>
+          <td>advanced</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Styling and layout</td>
+          <td>intermediate</td>
+        </tr>
+        <tr>
+          <td>Java script</td>
+          <td>Making page intractive</td>
+          <td>beginner</td>
+        </tr>
+      </table>
+    </body>
+  </head>
+</html>
