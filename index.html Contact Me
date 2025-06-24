@@ -1,0 +1,42 @@
+<html>
+<head>
+  <style>
+    table,
+    tr,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <h1>
+      Contact Me
+    </h1>
+    <h2>
+      let's connect!
+    </h2>
+    <img src="IMG-20241210-WA0016.jpg" alt="It's me!" width="200" height="200" style="border-radius: 50%;">
+    <table>
+      <tr>
+        <td>Name:</td>
+        <td>Rameez</td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td>rameez@example.com</td>
+      </tr>
+      <tr>
+        <td>facebook:</td>
+        <td><a href="https://www.facebook.com/rameez" target="_blank">Visit my Facebook</a></td>
+      </tr>
+    </table>
+    <h3>
+      Available Time Slots:
+    </h3>
+    <ul>
+      <li>Monday: 10 AM - 12 PM</li>
+      <li>Wednesday: 2 PM - 4 PM</li>
+      <li>Friday: 1 PM - 3 PM</li>
+    </ul>
+  </body>
+</head>
+</html>
