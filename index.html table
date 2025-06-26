@@ -15,12 +15,12 @@
         Hello, my name is <span color teal>Rameez</span>
       </div>
       <div>
-        visit my favorite site: <a> herf="https://www.youtube.com/" target="_blank">visit youtube</a>
+        visit my favorite site: <a href="https://www.youtube.com/" target="_blank">visit youtube</a>
       </div>
       <h2>
         My Skills
       </h2>
-      <table style=width:"100%;">
+      <table style="width:100%">
         <tr>
           <th>SKILLS</th>
           <th>description</th>
@@ -38,7 +38,7 @@
         </tr>
         <tr>
           <td>Java script</td>
-          <td>Making page intractive</td>
+          <td>Making page interactive</td>
           <td>beginner</td>
         </tr>
       </table>
