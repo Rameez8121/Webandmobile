@@ -1,0 +1,40 @@
+<html>
+<head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  <body>
+    <h1>My favorite Places</h1>
+    <ul>
+      <li>Paris-I love the culture and food</li>
+      <li>Kyoto-I love the temples and traditional tea houses</li>
+      <table style="width: 100%; text-align: center;">
+        <tr style="background-color: lightblue; font-family: Arial, sans-serif;">
+          <th>Places</th>
+          <th>Country</th>
+          <th>Best Time to Visit</th>
+          <th>Image</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Paris</td>
+          <td>France</td>
+          <td>Spring</td>
+          <td><img src="I ❤️Paris.jpg" alt="Paris" width="150"></td>
+          <td><a href="https://en.wikipedia.org/wiki/Paris" target="_blank">More about Paris</a></td>
+        </tr>
+        <tr>
+          <td>Kyoto</td>
+          <td>Japan</td>
+          <td>Autumn</td>
+          <td><img src="Yasaka-no-tou Pagoda of the Hokan-ji Temple in….jpg" alt="Kyoto" width="150"></td>
+          <td><a href="https://en.wikipedia.org/wiki/Kyoto" target="_blank">More about Kyoto</a></td>
+        </tr>
+      </table>
+  </body>
+</head>
+</html>
