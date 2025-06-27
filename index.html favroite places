@@ -1,40 +1,41 @@
 <html>
 <head>
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid black;
-      }
-    </style>
+  <style>
+    table,
+    th,td{
+      border:1px solid black;
+    }
+  </style>
   <body>
-    <h1>My favorite Places</h1>
+    <h1>
+      My Favorite Places
+    </h1>
     <ul>
-      <li>Paris-I love the culture and food</li>
-      <li>Kyoto-I love the temples and traditional tea houses</li>
-      <table style="width: 100%; text-align: center;">
-        <tr style="background-color: lightblue; font-family: Arial, sans-serif;">
-          <th>Places</th>
-          <th>Country</th>
-          <th>Best Time to Visit</th>
-          <th>Image</th>
-          <th>Link</th>
-        </tr>
-        <tr>
-          <td>Paris</td>
-          <td>France</td>
-          <td>Spring</td>
-          <td><img src="I ❤️Paris.jpg" alt="Paris" width="150"></td>
-          <td><a href="https://en.wikipedia.org/wiki/Paris" target="_blank">More about Paris</a></td>
-        </tr>
-        <tr>
-          <td>Kyoto</td>
-          <td>Japan</td>
-          <td>Autumn</td>
-          <td><img src="Yasaka-no-tou Pagoda of the Hokan-ji Temple in….jpg" alt="Kyoto" width="150"></td>
-          <td><a href="https://en.wikipedia.org/wiki/Kyoto" target="_blank">More about Kyoto</a></td>
-        </tr>
-      </table>
+        <li>Paris - I love the Eiffel Tower</li>
+        <li>Kyoto - I love the cherry blossoms</li>
+    </ul>
+    <table style="width: 100%; background-color: lightgray; font-family: Arial, sans-serif;">
+      <tr>
+        <th>Place</th>
+        <th>Country</th>
+        <th>Best Time to Visit</th>
+        <th>Image</th>
+        <th>Link</th>
+      </tr>
+      <tr style="font-family: Arial, sans-serif; text-align: center; background-color: teal;">
+        <td>Paris</td>
+        <td>France</td>
+        <td>Spring</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqO2sdg200lkGN8ZozVm6JdAw7R2gMB1rxSA&s" alt="Eiffel Tower" width="200" /></td>
+        <td><a href="https://en.wikipedia.org/wiki/Paris" target="_blank">Visit Paris</a></td>
+      </tr>
+      <tr style="font-family: Arial, sans-serif; text-align: center; background-color: lightblue;">
+        <td>Kyoto</td>
+        <td>Japan</td>
+        <td>Spring</td>
+        <td><img src="https://www.datocms-assets.com/101439/1741965956-kyoto.avif?auto=format&fit=max&w=1200" alt="Cherry Blossoms" width="200" /></td>
+        <td><a href="https://en.wikipedia.org/wiki/Kyoto" target="_blank">Visit Kyoto</a></td>
+    </table>
   </body>
 </head>
 </html>
