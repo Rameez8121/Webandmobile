@@ -1,0 +1,100 @@
+<html>
+<head>
+  <title>World tour</title>
+  <header>
+    <h1 style="text-align: center; background-color: grey; color: white;">World Tour</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <style>
+    table,
+    th,
+    td{
+      border: 1px solid black
+    }
+  </style>
+  <body>
+    <h1 style="text-align: center; background-color: grey; color: white;">
+      All Favorite Places
+    </h1>
+    <ul>
+      <li>Paris</li>
+      <li>New York</li>
+      <li>Tokyo</li>
+      <li>London</li>
+      <li>Sydney</li>
+    </ul>
+    <table style="width: 100%; text-align: center;">
+      <tr>
+        <th>City</th>
+        <th>Country</th>
+        <th>Image</th>
+        <th>link</th>
+      </tr>
+      <tr>
+        <td>Paris</td>
+        <td>France</td>
+        <td><img src="https://i.pinimg.com/736x/fd/65/03/fd650379a6d744ea9d991e37c8ddc798.jpg" style="width: 100;" alt="visiting Paris"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Paris" target="_blank">More about Paris</a></td>
+      </tr>
+      <tr>
+        <td>New York</td>
+        <td>USA</td>
+        <td><img src="https://i.pinimg.com/736x/0b/45/83/0b458370cbd8fa7011b2868473c94185.jpg" style="width: 100;" alt="visiting New York"></td>
+        <td><a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">More about New York</a></td>
+      </tr>
+      <tr>
+        <td>Tokyo</td>
+        <td>Japan</td>
+        <td><img src="https://i.pinimg.com/736x/c3/2f/1b/c32f1b5588619fdcfb901b887938ec44.jpg" style="width: 100;" alt="visiting Tokyo"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Tokyo" target="_blank">More about Tokyo</a></td>
+      </tr>
+      <tr>
+        <td>London</td>
+        <td>UK</td>
+        <td><img src="https://i.pinimg.com/736x/27/f6/c5/27f6c5c5d86463749ddde5997629b89c.jpg" style="width: 100;" alt="visiting London"></td>
+        <td><a href="https://en.wikipedia.org/wiki/London" target="_blank">More about London</a></td>
+      </tr>
+      <tr>
+        <td>Sydney</td>
+        <td>Australia</td>
+        <td><img src="https://i.pinimg.com/736x/d4/96/63/d49663ffe5dffcc977353bbd2032b892.jpg" style="width: 100;" alt="visiting Sydney"></td>
+        <td><a href="https://en.wikipedia.org/wiki/Sydney" target="_blank">More about Sydney</a></td>
+      </tr>
+    </table>
+    <h2 style="text-align: center; background-color: grey; color: white;">Application Form</h2>
+    <br>
+    <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="Enter your name" required>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" name="phone" placeholder="Enter your phone number" required>
+      <label for="how many people">How many people:</label>
+      <input type="number" name="how_many_people" placeholder="Enter number of people" required>
+      <label for="favorite_place">Favorite Place:</label>
+      <input type="text" name="favorite_place" placeholder="Enter your favorite place" required>
+      <label for="Tour_month">Tour Month:</label>
+      <input type="month" name="Tour_month" placeholder="Select a month" required>
+      <select name="country" id="">
+        <option value="france">France</option>
+        <option value="usa">USA</option>
+        <option value="japan">Japan</option>
+        <option value="uk">UK</option>
+        <option value="australia">Australia</option>
+      </select>
+  </br>
+</br>
+      <input type="submit" value="submit" >
+      <input type="reset" value="Reset">
+    </form>
+    <footer style="text-align: center; color: gray;">
+      <p>2025 World Tour</p>
+  </body>
+</head>
+</html>
