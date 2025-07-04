@@ -1,11 +1,11 @@
 <html>
+  <title>World Tour</title>
   <header>
     <h1 style="text-align: center; background-color: grey; color: white;">World Tour</h1>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -112,6 +112,30 @@
       <h3>For more information contact us !</h3>
       <div style="text-align: center;"><span style="color: blue;">123-456-7890</span></div>
     </section>
+    <section id="testimonials" style="text-align: center;">
+      <h2 style="background-color: grey; color: white;">Testimonials</h2>
+      <p>"The best tour experience ever! Highly recommend."</p>
+      <strong>- Ayesha, UAE</strong>
+      <p>"Amazing places and great service. Will book again!"</p>
+      <strong>- John, USA</strong>
+      <p>"A trip of a lifetime! Thank you for the unforgettable memories."</p>
+      <strong>- Sarah, Canada</strong>
+    </section>
+    <section id="newsletter" style="text-align: center;">
+      <h2 style="background-color: grey; color: white;">Newsletter</h2>
+      <p>Subscribe to our newsletter for the latest updates and offers!</p>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" value="Subscribe">
+      </form>
+    </section>
+    <h1>Contact Us</h1>
+    <ul>
+      <li><a href="tel:+1234567890">Call Us:</a></li>
+      <li><a href="sms:+1234567890">Text Us:</a></li>
+      <li><a href="https://www.wa.me/+1234567890" target="_blank">WhatsApp Us:</a></li>
+    </ul>
     <footer style="text-align: center; color: gray;">
       <p>2025 World Tour</p>
   </body>
