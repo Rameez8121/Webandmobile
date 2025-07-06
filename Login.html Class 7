@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: whitesmoke;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+      }
+      form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #1d1b1b;
+        border-radius: 4px;
+      }
+      input[type="submit"] {
+        background-color: rgb(52, 132, 236);
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 10px 15px;
+      }
+    </style>
+    <title>Login</title>
+    <body>
+      <h1 style="text-align: center; color: blue; font-family: serif;">Login</h1>
+      <form>
+        <label for="email">Email</label>
+        <br><br>
+        <input type="email" name="email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <br><br>
+        <input type="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Login">
+        <br><br>
+        <p style="text-align: center; color:grey">Don't have an account? <a href="https://htmlpreview.github.io/?https://github.com/Rameez8121/Webandmobile/blob/main/Signup.html%20class%206" target="_blank">Sign up</a></p>
+      </form>
+    </body>
+  </head>
+</html>
