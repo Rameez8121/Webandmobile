@@ -1,23 +1,172 @@
+
 <html>
+    <style>
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #dee2e6;
+
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+        }
+        nav ul li {
+            display: inline;
+            margin: 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-top: 2px solid #dee2e6;
+            border-bottom: 2px solid #dee2e6;
+
+        }
+        h1 {
+            color: #343a40;
+            text-align: center;
+        }
+        h2 {
+            color: #495057;
+            margin-top: 20px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            text-align: center;
+            font-weight: bold;
+            color: #007bff;
+            font-size: 18px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid grey;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #f8f9fa;
+
+        }
+        th {
+            background-color: #e9ecef;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+        form {
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="number"],
+        input[type="month"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+        }
+        section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        section h2 {
+            color: #343a40;
+        }
+        section p {
+            color: #6c757d;
+        }
+        #testimonials {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-style: italic;
+            text-align: center;
+        }
+        #testimonials p {
+            margin: 10px 0;
+        }
+        #testimonials strong {
+            display: block;
+            margin-top: 5px;
+            color: #343a40;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-top: 2px solid #dee2e6;
+            margin-top: 20px;
+        }   
+        footer p {
+            margin: 0;
+            color: #6c757d;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+        
+    </style>
   <title>World Tour</title>
   <header>
-    <h1 style="text-align: center; background-color: grey; color: white;">World Tour</h1>
+    <h1>World Tour</h1>
     <nav>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-      </ul>
+        <li><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/Rameez8121/Webandmobile/main/Class%207%20Login.html" target="_blank">For Login</a></li>
+      <li><a href="https://htmlpreview.github.io/?https://github.com/Rameez8121/Webandmobile/blob/main/Class%206%20Signup.html" target="_blank">For Signup</a></li>
+    </ul>
     </nav>
   </header>
-  <style>
-    table,
-    th,
-    td{
-      border: 1px solid black
-    }
-  </style>
   <body>
-    <h1 style="text-align: center; background-color: grey; color: white;">
+    <h1>
       All Favorite Places
     </h1>
     <hr>
@@ -28,7 +177,7 @@
       <li>London</li>
       <li>Sydney</li>
     </ul>
-    <table style="width: 100%; text-align: center;">
+    <table>
       <tr>
         <th>City</th>
         <th>Country</th>
@@ -66,9 +215,9 @@
         <td><a href="https://en.wikipedia.org/wiki/Sydney" target="_blank">More about Sydney</a></td>
       </tr>
     </table>
-    <h2 style="text-align: center; background-color: grey; color: white;">Application Form</h2>
-    <hr>
-  </br>
+    <br>
+    <h2>Application Form</h2>
+  <br>
     <label for="name">Name:</label>
       <input type="text" name="name" placeholder="Enter your name" required>
       <br>
@@ -103,17 +252,15 @@
       <input type="submit" value="submit" >
       <input type="reset" value="Reset">
     </form>
-    <section id="map" style="text-align: center;">
-      <h2 style="background-color: grey; color: white;">World Map</h2>
-      <p style="text-align: center;">Explore the world with us!</p>
-      <p style="text-align: center;">Find your next adventure destination.</p>
+    <section>
+      <h2>World Map</h2>
+      <p>Explore the world with us!</p>
+      <p>Find your next adventure destination.</p>
       <hr>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509999!2d144.9537363153165!3d-37.81627997975104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11b7b9%3A0x5045675218ce6e0!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sin!4v1616161616161" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      <h3>For more information contact us !</h3>
-      <div style="text-align: center;"><span style="color: blue;">123-456-7890</span></div>
     </section>
-    <section id="testimonials" style="text-align: center;">
-      <h2 style="background-color: grey; color: white;">Testimonials</h2>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
       <p>"The best tour experience ever! Highly recommend."</p>
       <strong>- Ayesha, UAE</strong>
       <p>"Amazing places and great service. Will book again!"</p>
@@ -121,8 +268,8 @@
       <p>"A trip of a lifetime! Thank you for the unforgettable memories."</p>
       <strong>- Sarah, Canada</strong>
     </section>
-    <section id="newsletter" style="text-align: center;">
-      <h2 style="background-color: grey; color: white;">Newsletter</h2>
+    <section>
+      <h2>Newsletter</h2>
       <p>Subscribe to our newsletter for the latest updates and offers!</p>
       <form>
         <label for="email">Email:</label>
@@ -136,8 +283,9 @@
       <li><a href="sms:+1234567890">Text Us:</a></li>
       <li><a href="https://www.wa.me/+1234567890" target="_blank">WhatsApp Us:</a></li>
     </ul>
-    <footer style="text-align: center; color: gray;">
-      <p>2025 World Tour</p>
+    <footer>
+        <p>2025 World Tour</p>
+    </footer>
   </body>
 </head>
 </html>
