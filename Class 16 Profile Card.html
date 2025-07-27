@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .profile-card {
+        background-color: #ffffff;
+        width: 50%;
+        padding: 20px;
+        margin: 40px;
+        border: 8px;
+      }
+      .profile-header {
+        background-color: teal;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .status {
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+        font-style: italic;
+      }
+      .profile-body {
+        min-height: 20%;
+        padding: 10px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        font-style: italic;
+      }
+      .profile-footer {
+        margin-top: 20px;
+      }
+      .follow-btn,
+      .message-btn {
+        display: inline-block;
+        padding: 20px;
+        margin: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .follow-btn {
+        background-color: #28a745;
+      }
+      .follow-btn:hover,
+      .message-btn:hover {
+        opacity: 0.8;
+      }
+    </style>
+    <body>
+      <div class="profile-card">
+        <div class="profile-header">
+          <h2 class="name">John Doe</h2>
+          <div class="status">Online</div>
+        </div>
+        <div class="profile-body">
+          <p class="description">Web Developer & Designer</p>
+        </div>
+        <div class="profile-footer">
+          <button class="follow-btn">Follow</button>
+          <button class="message-btn">Message</button>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
