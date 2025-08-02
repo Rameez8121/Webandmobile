@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <style>
+      .px{
+        background-color: teal;
+        width: 100px;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .width{
+        background-color: orange;
+        width: 50%;
+        padding: 10%;
+        margin-bottom: 2%;
+      }
+      .vw{
+        background-color: aqua;
+        width: 50vw;
+        height: 20vh;
+margin-bottom: 1vw;
+      }
+      .margin{
+        background-color: blue;
+        width: 100px;
+        padding: 40px;
+        margin: 50px;
+        color: whitesmoke;
+      }
+      .padding{
+        background-color: darkgoldenrod;
+        width: 100px;
+        padding: 20%;
+      }
+      .vh{
+        background-color: coral;
+        width: 50%;
+        padding: 20px;
+        margin: 10vh;
+      }
+      .text{
+        background-color: grey;
+        width: 50%;
+        padding: 30px;
+        color: coral;
+      }
+      .inline{
+        display: inline;
+        background-color: brown;
+        width: 10%;
+        padding: 10px;
+        margin-bottom: 20%;
+      }
+      .inline-block{
+        display: inline-block;
+        background-color: yellowgreen;
+        width: 50px;
+        padding: 20px;
+      }
+      .block{
+        background-color: tomato;
+        width: 50px;
+        padding: 10px; 
+      }
+    </style>
+    <body>
+      <h1>Width & height</h1>
+      <div class="px">Fixed px</div>
+      <div class="width">50% width</div>
+      <div class="vw">50vw 20vh</div>
+      <h2>Box Models</h2>
+      <div class="margin">Margin px</div>
+      <div class="padding">Padding%</div>
+      <div class="vh">Margin vh</div>
+      <h3>Color & background</h3>
+      <div class="Text">Text Color + BG Image</div>
+      <h3>Display Types</h3>
+      <div class="Inline">Inline</div>
+      <div class="Inline-block">Inline-block</div>
+      <div class="block">block</div>
+    </body>
+  </head>
+</html>
