@@ -1,0 +1,43 @@
+.static,
+.relative{
+    background-color: teal;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    position: static;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.relative{
+    background-color: navy;
+    position: relative;
+    left: 40px;
+}
+.parent{
+    position: relative;
+    background-color: green;
+    width: 50%;
+    padding: 50px;
+    margin-top: 20px;
+}
+.child{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    background-color: darkgreen;
+    width: 100px;
+    padding: 20px;
+}
+.fixed{
+    background-color: lightgreen;
+    padding: 20px;
+    width: 50%;
+    margin-top: 25px;
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+}
