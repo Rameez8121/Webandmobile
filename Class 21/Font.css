@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'bitcount';
+    src: url('fonts/Bitcount.ttf');
+}
+.heading {
+    font-family: 'bitcount';
+}
